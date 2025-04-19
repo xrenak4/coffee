@@ -1,0 +1,61 @@
+- type: seed
+  id: cocoa
+  name: seeds-cocoa-name
+  noun: seeds-noun-seeds
+  displayName: seeds-cocoa-display-name
+  plantRsi: Objects/Specific/Hydroponics/cocoa.rsi
+  packetPrototype: CocoaSeeds
+  productPrototypes:
+  - FoodCocoaPod
+  mutationPrototypes:
+  - Coffees
+  harvestRepeat: Repeat
+  lifespan: 50
+  maturation: 6
+  production: 6
+  yield: 6
+  idealLight: 7
+  waterConsumption: 1
+  nutrientConsumption: 0.8
+  idealHeat: 298
+  chemicals:
+    Vitamin:
+      Min: 1
+      Max: 4
+      PotencyDivisor: 25
+    Nutriment:
+      Min: 1
+      Max: 2
+      PotencyDivisor: 50
+
+- type: seed
+  id: Coffee_tree
+  name: seeds-coffee-name
+  noun: seeds-noun-seeds
+  displayName: seeds-coffee-display-name
+  plantRsi: Textures/_xrenak/Entities/Objects/Specific/Hydroponics/coffee.rsi
+  packetPrototype: CoffeeSeeds
+  productPrototypes:
+  - coffeebean
+  harvestRepeat: Repeat
+  lifespan: 50
+  maturation: 6
+  production: 6
+  yield: 6
+  idealLight: 7
+  waterConsumption: 1
+  nutrientConsumption: 0.8
+  idealHeat: 298
+  chemicals:
+    Coffeepowder:
+      Min: 3
+      Max: 8
+      PotencyDivisor: 20
+    Vitamin:
+      Min: 1
+      Max: 4
+      PotencyDivisor: 25
+    Nutriment:
+      Min: 1.5
+      Max: 4
+      PotencyDivisor: 50

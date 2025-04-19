@@ -1,0 +1,34 @@
+- type: entity
+  name: coffee beans
+  parent: FoodProduceBase
+  id: coffeebean
+  description: Кофе в лапках, ушки смирно! Я тащусь от кофеина
+  components:
+  - type: FlavorProfile
+    flavors:
+    - coffee
+  - type: produce
+    sprite: _xrenak/Entities/Objects/Specific/Hydroponics/coffee.rsi
+    state: produce
+  - type: Produce
+    seedId: coffees
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 16
+        reagents:
+        - ReagentId: Nitrogen
+          Quantity: 1.5
+        - ReagentId: Vitamin
+          Quantity: 1
+        - ReagentId: Coffeepowder
+          Quantity: 3
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Coffeepowder
+        Quantity: 4
+  - type: Tag
+    tags:
+    - Ingredient
+    - Fruit

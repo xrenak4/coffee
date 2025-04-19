@@ -1,0 +1,9 @@
+- type: reaction
+  id: Coffee
+  reactants:
+    Coffeepowder:
+      amount: 1
+    Water:
+      amount: 4
+  products:
+    Coffee: 5
